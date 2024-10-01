@@ -1,129 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal-Solution</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal-Solution</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+    rel="stylesheet">
 
 
-    <style>
-        .garamond{
-            font-family: "EB Garamond", serif;
-        }
-    </style>
+  <style>
+    .garamond {
+      font-family: "EB Garamond", serif;
+    }
+  </style>
 
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
           }
         }
-      </script>
+      }
+    }
+  </script>
 
 </head>
-<body class="garamond">
-    <header class="w-[90%] mx-auto lg:w-[70%]">
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
-                    </ul>
-                  </div>
-                 <div class="flex justify-center items-center">
-                  <div class="w-[100%]">
-                    <img class="w-full flex justify-center items-center" src="./images/logo.png" alt="">
-                  </div>
-                  <div>
-                    <h1 class="font-bold text-4xl -mr-40">Justice</h1>
-                  </div>
-                 </div>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                      <details>
-                        <summary>Parent</summary>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </details>
-                    </li>
-                    <li><a>Item 3</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn">Free Consultation</a>
-                </div>
-              </div>
-        </nav>
-        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptas ducimus, ab quod ullam provident? A eius reiciendis ut unde.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, sunt.</p>
-    </header>
-    <main>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repellat cumque iste voluptates repudiandae esse deleniti aut, saepe voluptatem eum?
-      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, nam!</h1>
-      <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, reprehenderit?</h1>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eum, nulla quisquam nisi cumque aperiam enim dignissimos maxime facere?</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia!</p>
-      <h4>Lorem ipsum dolor sit amet.</h4>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sunt aut officia aspernatur pariatur velit et, officiis voluptatibus sit quibusdam, ea ipsam, fugit unde cum iusto recusandae quo ad fugiat corrupti quae dolores provident minima nam? Molestias nisi eos, nam quasi architecto possimus porro at obcaecati dolore ex ut? Cumque?
-      </p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at voluptates odit, ipsum quae enim vitae facere minus suscipit odio aliquid! Mollitia, sint sit nulla quaerat perspiciatis laboriosam autem corrupti.</p>
-    </main>
 
-   <section class="section-container">
+<body class="garamond">
+  <header class="w-[90%] mx-auto lg:w-[70%]">
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <div class="flex justify-center items-center">
+            <div class="w-[100%]">
+              <img class="w-full flex justify-center items-center" src="./images/logo.png" alt="">
+            </div>
+            <div>
+              <h1 class="font-bold text-4xl -mr-40">Justice</h1>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Item 1</a></li>
+            <li>
+              <details>
+                <summary>Parent</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Free Consultation</a>
+        </div>
+      </div>
+    </nav>
+    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptas ducimus, ab quod ullam provident? A eius
+      reiciendis ut unde.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, sunt.</p>
+  </header>
+  <main>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repellat cumque iste voluptates repudiandae esse
+    deleniti aut, saepe voluptatem eum?
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, nam!</h1>
+    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, reprehenderit?</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eum, nulla quisquam nisi cumque aperiam enim
+      dignissimos maxime facere?</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia!</p>
+    <h4>Lorem ipsum dolor sit amet.</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sunt aut officia aspernatur pariatur velit et,
+      officiis voluptatibus sit quibusdam, ea ipsam, fugit unde cum iusto recusandae quo ad fugiat corrupti quae dolores
+      provident minima nam? Molestias nisi eos, nam quasi architecto possimus porro at obcaecati dolore ex ut? Cumque?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at voluptates odit, ipsum quae enim vitae facere
+      minus suscipit odio aliquid! Mollitia, sint sit nulla quaerat perspiciatis laboriosam autem corrupti.</p>
+  </main>
+
+  <section class="section-container">
     <ul>
-      <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque vero qui adipisci consequuntur deserunt quos quam ipsa quibusdam id rem!</li>
-      <li class="item">Autem ut rerum eligendi esse cupiditate neque maxime reiciendis mollitia, at minus molestiae, culpa sequi rem dolorum! Delectus, aspernatur illo!</li>
-      <li class="item">Provident quibusdam dolor ab eos at ex voluptate odio. Sunt consequuntur id quo ex modi quos laboriosam laborum dolorem itaque?</li>
-      <li class="item">Fugit recusandae maxime autem eius doloribus saepe aut unde quidem minima consectetur ipsa earum impedit quam sequi, ut cum eum!</li>
-      <li class="item">Id harum repellendus blanditiis labore earum ipsum voluptatibus quaerat perspiciatis. Doloribus et atque, itaque tenetur qui architecto incidunt ea commodi.</li>
-      <li class="item">Adipisci maxime rem atque quisquam fugit eos molestiae magnam ducimus, deserunt vero consequatur. Modi libero deleniti impedit eos, doloremque dignissimos?</li>
-      <li class="item">Voluptate facilis nam molestias amet repellat similique dolor molestiae ad eaque? Blanditiis sed eligendi expedita! Error odit minima nostrum sunt.</li>
-      <li class="item">Fugiat enim, eos cumque, quae animi excepturi quisquam reiciendis aspernatur earum veritatis cum modi vitae consequatur maiores corrupti, voluptatum dolores.</li>
-      <li class="item">Alias sequi ipsam dolor provident quod nulla maxime expedita, quis facilis hic maiores dicta ut cupiditate quae omnis et in!</li>
-      <li class="item">Tenetur, deserunt iusto architecto quos facere perspiciatis! Eos excepturi quaerat, ex cupiditate nulla tempore. Deleniti accusantium voluptatum delectus unde aliquid!</li>
+      <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque vero qui adipisci consequuntur
+        deserunt quos quam ipsa quibusdam id rem!</li>
+      <li class="item">Autem ut rerum eligendi esse cupiditate neque maxime reiciendis mollitia, at minus molestiae,
+        culpa sequi rem dolorum! Delectus, aspernatur illo!</li>
+      <li class="item">Provident quibusdam dolor ab eos at ex voluptate odio. Sunt consequuntur id quo ex modi quos
+        laboriosam laborum dolorem itaque?</li>
+      <li class="item">Fugit recusandae maxime autem eius doloribus saepe aut unde quidem minima consectetur ipsa earum
+        impedit quam sequi, ut cum eum!</li>
+      <li class="item">Id harum repellendus blanditiis labore earum ipsum voluptatibus quaerat perspiciatis. Doloribus
+        et atque, itaque tenetur qui architecto incidunt ea commodi.</li>
+      <li class="item">Adipisci maxime rem atque quisquam fugit eos molestiae magnam ducimus, deserunt vero consequatur.
+        Modi libero deleniti impedit eos, doloremque dignissimos?</li>
+      <li class="item">Voluptate facilis nam molestias amet repellat similique dolor molestiae ad eaque? Blanditiis sed
+        eligendi expedita! Error odit minima nostrum sunt.</li>
+      <li class="item">Fugiat enim, eos cumque, quae animi excepturi quisquam reiciendis aspernatur earum veritatis cum
+        modi vitae consequatur maiores corrupti, voluptatum dolores.</li>
+      <li class="item">Alias sequi ipsam dolor provident quod nulla maxime expedita, quis facilis hic maiores dicta ut
+        cupiditate quae omnis et in!</li>
+      <li class="item">Tenetur, deserunt iusto architecto quos facere perspiciatis! Eos excepturi quaerat, ex cupiditate
+        nulla tempore. Deleniti accusantium voluptatum delectus unde aliquid!</li>
     </ul>
     <ul>
       <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, necessitatibus!</li>
@@ -137,41 +146,58 @@
       <li>Sint aliquam iusto exercitationem voluptate officiis obcaecati! Soluta, mollitia rerum.</li>
       <li>Ullam sit, temporibus pariatur odit aliquam animi voluptate iusto id.</li>
     </ul>
-   </section>
-    <footer>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, beatae?
-      <h2>Lorem ipsum dolor sit amet.</h2>
-      <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, perspiciatis!</h1>
-      <h5>Lorem ipsum dolor sit amet consectetur.</h5>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-      <button>sign up</button>
-      <input type="text" name="" id="">
-      <input type="text" name="" id="">
-      <input type="email" name="" id="">
-      <button>Click Me</button>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima autem eos distinctio, quibusdam molestias culpa expedita libero repellendus in laboriosam!</h5>
-      <input type="text" name="" id="">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui rem id, vero facilis, distinctio doloremque minima porro eveniet, culpa animi illum dignissimos recusandae ducimus quidem odit error libero aspernatur ut.
-      <p>Lorem, ipsum dolor.</p>
-      <h6>Lorem ipsum dolor sit amet.</h6>
+    <ul>
+      <li>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit pariatur sed cupiditate nesciunt, omnis tempore maxime dolorum aliquam animi nihil sapiente et hic quam velit quisquam non unde rerum.
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <footer>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, beatae?
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, perspiciatis!</h1>
+    <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    <button>sign up</button>
+    <input type="text" name="" id="">
+    <input type="text" name="" id="">
+    <input type="email" name="" id="">
+    <button>Click Me</button>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima autem eos distinctio, quibusdam molestias culpa
+      expedita libero repellendus in laboriosam!</h5>
+    <input type="text" name="" id="">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui rem id, vero facilis, distinctio doloremque minima
+    porro eveniet, culpa animi illum dignissimos recusandae ducimus quidem odit error libero aspernatur ut.
+    <p>Lorem, ipsum dolor.</p>
+    <h6>Lorem ipsum dolor sit amet.</h6>
 
-      <img src="./images/divorce.png" alt="">
-      <img src="./images/child.png" alt="">
+    <img src="./images/divorce.png" alt="">
+    <img src="./images/child.png" alt="">
 
-      <img src="./images/closeup-gavel-judgement-concept.jpg" alt="">
-      <img src="./images/business.png" alt="">
-      <img src="./images/Rectangle 5.png" alt="">
-      <img src="./images/closeup-gavel-judgement-concept.jpg" alt="">
-      <img src="./images/business.png" alt="">
-      <img src="./images/slider-2.jpg" alt="">
+    <img src="./images/closeup-gavel-judgement-concept.jpg" alt="">
+    <img src="./images/business.png" alt="">
+    <img src="./images/Rectangle 5.png" alt="">
+    <img src="./images/closeup-gavel-judgement-concept.jpg" alt="">
+    <img src="./images/business.png" alt="">
+    <img src="./images/slider-2.jpg" alt="">
 
-      <img src="./images/address.png" alt="">
-      <img src="./images/banner.png" alt="">
-      <img src="./images/education.png" alt="">
-      Lorem ipsum dolor sit amet.
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima soluta iusto dicta officia veritatis, quas odit natus at, dolorem aliquid odio animi perspiciatis aperiam maiores suscipit? Itaque maiores delectus aut tempore doloremque, in quos. Odio asperiores laudantium voluptas facilis perspiciatis!</p>
-      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vel dolorem facere est ab, iusto autem repellendus similique! Ad impedit, autem necessitatibus ratione mollitia quia iure quisquam voluptas asperiores dolores, maxime culpa eius repellat inventore et? Blanditiis sit iste provident voluptate. Enim quia doloremque animi.</h5>
-    </footer>
+    <img src="./images/address.png" alt="">
+    <img src="./images/banner.png" alt="">
+    <img src="./images/education.png" alt="">
+    Lorem ipsum dolor sit amet.
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima soluta iusto dicta officia veritatis, quas odit
+      natus at, dolorem aliquid odio animi perspiciatis aperiam maiores suscipit? Itaque maiores delectus aut tempore
+      doloremque, in quos. Odio asperiores laudantium voluptas facilis perspiciatis!</p>
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vel dolorem facere est ab, iusto autem
+      repellendus similique! Ad impedit, autem necessitatibus ratione mollitia quia iure quisquam voluptas asperiores
+      dolores, maxime culpa eius repellat inventore et? Blanditiis sit iste provident voluptate. Enim quia doloremque
+      animi.</h5>
+  </footer>
 </body>
+
 </html>
